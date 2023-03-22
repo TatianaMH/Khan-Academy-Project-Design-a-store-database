@@ -6,7 +6,7 @@ Khan Academy wants me to design a store so I am taking inspiration and stock fro
 [Link to acutal project](https://www.khanacademy.org/computer-programming/spin-off-of-project-design-a-store-database/5007937972256768)
 
 CREATE TABLE crochet (id INTEGER, name TEXT, colors
-TEXT, location TEXT, price TEXT);
+TEXT, location TEXT, price NUMERIC);
 
 INSERT INTO crochet VALUES (1, "Fjord Horse", "Cream, Beige, Grey, Black.", "Suitcase", 23.35);
 INSERT into crochet VALUES (2, "Crochet Infinity Scarf" "Light Purple.", "Suitcase", 23.35);
@@ -24,4 +24,4 @@ INSERT into crochet VALUES (13, "Cover up", "Silver-White Multi-colored", "Suitc
 INSERT into crochet VALUES (14, "Giant Crochet Doily", "White", "Suitcase", 33.35);
 INSERT into crochet VALUES (15, "Bookmark Crosses", "Pink. Silver. Purple. Blue", "Suitcase", 6.35);
 
-SELECT * FROM crochet ORDER BY price ASC;
+SELECT * FROM crochet ORDER BY price);
