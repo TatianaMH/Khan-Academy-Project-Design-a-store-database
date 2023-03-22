@@ -3,7 +3,8 @@ Khan Academy wants me to design a store so I am taking inspiration and stock fro
 
 **This is the SQL I typed myself**
 
-[Link to acutal project](https://www.khanacademy.org/computer-programming/spin-off-of-project-design-a-store-database/5007937972256768)
+[Link to acutal project](https://www.khanacademy.org/computer-programming/spin-off-of-project-design-a-store-database/5440787262521344)
+
 
 CREATE TABLE crochet (id INTEGER, name TEXT, colors
 TEXT, location TEXT, price NUMERIC);
